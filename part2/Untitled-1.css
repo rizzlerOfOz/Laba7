@@ -1,0 +1,144 @@
+* {box-sizing: border-box;}
+body {
+    background: #ffffff;
+}
+
+.iconholder {
+    display: inline-block;
+    margin-top: 1%;
+    width: 3%;
+    margin-left: 4%;
+
+}
+.iconholder1{
+    display: inline-block;
+    margin-top: 1%;
+    width: 3%;
+    margin-left: 4%;
+
+}
+.projectname {
+    display: inline-block;
+}
+div.projectname p {
+    display: inline-block;
+}
+ul {
+    display: inline;
+    margin-left: 3%;
+}
+li {
+    display: inline;
+    margin-right: 2%;
+}
+.contactholder {
+    float: right; 
+    margin-right: 2%;
+}
+div.contactholder p a{
+    color: #88c558;
+    text-decoration-color: grey;
+}
+.addressholder {
+    margin-right: 1%;
+    float: right;
+}  
+ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.pics{
+    margin-top: 20%;
+    margin-left: 15%;
+    width: 70%;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10%;
+}
+
+.copyright{
+    display: inline-block;
+    color: #717171;
+    margin-left: 5%;
+}
+
+
+
+.mySlides {
+    display: none;
+    position: relative;
+    text-align: center;
+}
+
+img {vertical-align: middle;}
+
+.slideshow-container {
+    max-width: 3000px;
+    position: relative;
+    margin: auto;
+    margin-top: 0;
+}
+
+
+.dot {
+    height: 3px;
+    width: 25px;
+    margin: 0 2px;
+    background-color: #bbb;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}
+@media only screen and (max-width: 450px) {
+    .addressholder{
+        display: none;
+    }
+    .contactholder{
+        display: none;
+    }
+    .exp {
+        font-size: x-small;
+        margin-left: -5%;
+        display: list-item;
+    }
+    .iconholder{
+        margin-left: 30%;
+    }
+    .projectname{
+        margin-left: 5%;
+    }
+   .nah{
+    display: none;
+   }
+   .iconholder1{
+    margin-left: 4%;
+
+   }
+}
